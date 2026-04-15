@@ -1,0 +1,4 @@
+include=~/.config/mako/mako-colors
+border-radius=16
+width=400
+height=200

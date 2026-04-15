@@ -1,0 +1,97 @@
+@import "colors.css";
+
+* {
+    border: none;
+    font-family: 'GeistMono Nerd Font', 'Noto Sans JP', sans-serif;
+    font-size: 13px;
+    min-height: 0;
+}
+
+window#waybar {
+    background: transparent;
+}
+
+.modules-left,
+.modules-center {
+    padding: 4px;
+    border-radius: 100px;
+}
+
+.modules-right {
+    margin: 4px;
+    padding: 6px 14px;
+    border-radius: 999px;
+    background: @surface_container;
+    box-shadow: inset 0 0 0 2px @primary;
+}
+
+.modules-left {
+    margin: 4px;
+    border-radius: 999px;
+    background: @surface_container;
+    box-shadow: inset 0 0 0 2px @primary;
+}
+
+#custom-launcher {
+    padding: 0 10px 0 20px;
+    font-size: 16px;
+    border-radius: 999px;
+    color: @primary;
+}
+
+#workspaces {
+    padding: 6px;
+    border-radius: 999px;
+    transition: all 0.3s;
+    color: @primary;
+}
+
+#workspaces button {
+    margin: 0.25em;
+    border-radius: 100px;
+    color: @secondary;
+    transition: all .3s;
+}
+
+#workspaces button.active {
+    color: @on_primary;
+    background: @primary;
+    min-width: 2rem;
+    font-weight: bold;
+}
+
+#workspaces button:hover {
+    background: @primary_container;
+    border: none;
+    box-shadow: none;
+}
+
+#window {
+    padding: 6px 24px;
+    border-radius: 999px;
+    background: @surface_container;
+    color: @primary;
+    box-shadow: inset 0 0 0 2px @primary;
+    transition: all .3s;
+}
+
+#mpris,
+#tray,
+#network,
+#pulseaudio,
+#cpu,
+#memory,
+#clock {
+    padding: 0 8px;
+    color: @primary;
+    transition: all .3s;
+}
+
+#network {
+    padding: 0 12px 0 8px;
+}
+
+window#waybar.empty #window {
+    background-color: transparent;
+    box-shadow: none;
+}

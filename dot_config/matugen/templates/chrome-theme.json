@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "version": "1.0",
+  "name": "Matugen Optimized Theme",
+  "theme": {
+    "colors": {
+      "frame": [{{colors.primary_container.light.red}}, {{colors.primary_container.light.green}}, {{colors.primary_container.light.blue}}],
+      "frame_inactive": [{{colors.surface_variant.light.red}}, {{colors.surface_variant.light.green}}, {{colors.surface_variant.light.blue}}],
+      "toolbar": [{{colors.surface.light.red}}, {{colors.surface.light.green}}, {{colors.surface.light.blue}}],
+      "ntp_background": [{{colors.surface.light.red}}, {{colors.surface.light.green}}, {{colors.surface.light.blue}}],
+      "ntp_text": [{{colors.on_surface.light.red}}, {{colors.on_surface.light.green}}, {{colors.on_surface.light.blue}}],
+      "tab_text": [{{colors.on_primary_container.light.red}}, {{colors.on_primary_container.light.green}}, {{colors.on_primary_container.light.blue}}],
+      "tab_background_text": [{{colors.on_surface_variant.light.red}}, {{colors.on_surface_variant.light.green}}, {{colors.on_surface_variant.light.blue}}],
+      "bookmark_text": [{{colors.on_surface.light.red}}, {{colors.on_surface.light.green}}, {{colors.on_surface.light.blue}}]
+    }
+  }
+}
