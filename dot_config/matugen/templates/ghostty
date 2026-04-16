@@ -4,5 +4,5 @@ cursor-color = {{colors.primary.default.hex}}
 cursor-text = {{colors.on_primary.default.hex}}
 selection-background = {{colors.secondary_container.default.hex}}
 selection-foreground = {{colors.on_secondary_container.default.hex}}
-palette = 4={{colors.primary_fixed_dim.dark.hex}}
+palette = 4={{colors.source_color.default.hex}}
 palette = 12={{colors.primary_fixed_dim.light.hex}}
