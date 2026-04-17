@@ -81,7 +81,8 @@ window#waybar {
 #pulseaudio,
 #cpu,
 #memory,
-#clock {
+#clock,
+#custom-power-menu {
     padding: 0 8px;
     color: @primary;
     transition: all .3s;

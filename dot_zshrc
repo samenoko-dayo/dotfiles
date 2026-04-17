@@ -51,6 +51,9 @@ zinit light zsh-users/zsh-completions
 zinit light aloxaf/fzf-tab
 
 export EDITOR="antigravity --wait"
+export PATH="${PATH}:/usr/local/cuda/bin"
+export LD_LIBRARY="${LD_LIBRARY}:/usr/local/cuda/lib64"
+export LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATH
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
