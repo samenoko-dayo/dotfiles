@@ -26,6 +26,9 @@
             "*": 5
         }
     },
+    "hyprland/window": {
+        "max-length": 50
+    },
     "mpris": {
         "format": "{status_icon} {dynamic}",
         "format-paused": "{status_icon} {dynamic}",
